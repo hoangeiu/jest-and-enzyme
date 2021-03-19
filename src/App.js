@@ -16,6 +16,7 @@ export class UnconnectedApp extends Component {
     return (
       <div className="App m-3">
         <h1>Jotto</h1>
+        <div>The secret word is "party"</div>
         <Congrats success={this.props.success} />
         <Input />
         <GuessedWords guessedWords={this.props.guessedWords} />

@@ -6,7 +6,7 @@ import rootReducer from "../src/reducers";
 
 /**
  * Create a testing store with imported reducers, middleware, and initial state.
- *  globals: rootReducer
+ *  globals: rootReducer and middleware
  * @param {object} initialState - Initial state for store.
  * @function storeFactory
  * @returns {Store} - Redux store
